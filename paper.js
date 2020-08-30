@@ -5,9 +5,9 @@ class Paper {
           'friction':0.3,
           'density':1.0
       }
-      this.body = Bodies.circle(x, y, 40, options);
-      this.width = 40;
-      this.height = 40;
+      this.body = Bodies.circle(x, y, 30, options);
+      this.width = 30;
+      this.height = 30;
       
       World.add(world, this.body);
     }
