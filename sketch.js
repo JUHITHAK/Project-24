@@ -17,7 +17,7 @@ function setup(){
 }
 
 function draw(){
-    background(0);
+    background("lightblue");
     Engine.update(engine);
     bin.display();
     paper.display();
